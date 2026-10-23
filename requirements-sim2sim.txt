@@ -1,0 +1,5 @@
+# Install torch separately using the CPU/CUDA wheel instructions in install.md.
+# Tested with Python 3.12; these are the dependencies used by native MuJoCo inference.
+numpy==2.5.1
+mujoco==3.15.0
+Pillow==12.3.0

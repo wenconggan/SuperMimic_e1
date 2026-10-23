@@ -1,0 +1,3 @@
+-r requirements-sim2sim.txt
+matplotlib==3.10.8
+pytest==9.1.1

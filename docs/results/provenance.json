@@ -1,0 +1,67 @@
+{
+  "format": "supermimic_e1_result_provenance_v1",
+  "snapshot_at": "2026-10-23T01:53:47.938832+00:00",
+  "source_root": "original training workspace (not included)",
+  "files": {
+    "eval_014000_summary.json": {
+      "source": "logs/e1_paper/eval_014000_summary.json",
+      "source_sha256": "1368c689c43e85ed5384f0487127eda163fa48bc4de40a17431a564ead473565",
+      "distributed_sha256": "2458477cc16fa99259c6bb326185577901295efd4c188ecdd678cec85ea0ad62"
+    },
+    "eval_032000_summary.json": {
+      "source": "logs/e1_paper/eval_032000_summary.json",
+      "source_sha256": "4961592cbfdcd65a2ec66c3cd6eadeadb4e3aac0b4e27f55cd0baacaeb7c3565",
+      "distributed_sha256": "5557cfee2d44f377e196f6c2e54aed7d07ba7b948f59fb21179b0e02a78be920"
+    },
+    "eval_164000_summary.json": {
+      "source": "logs/e1_paper/eval_164000_summary.json",
+      "source_sha256": "c2fefdea8ffed7714ae334b13e236689519847c52494ac0fe5de971b76c15137",
+      "distributed_sha256": "487ff0195d31a9817fe47b931a78835ed65a88bac8d3946d977183dc86bf40e9"
+    },
+    "random10_sampling_plan.json": {
+      "source": "results/sim2sim/lafan1_random10_168000/sampling_plan.json",
+      "source_sha256": "25bed5bc8e920a4e10c463364c288cc7e1018eb93a02bc90d0c114026078d6d6",
+      "distributed_sha256": "621a542f9cab7b9eea96792ac7ae679851713d40fa11cf1b03b4b520749beda7"
+    },
+    "random10_summary.json": {
+      "source": "results/sim2sim/lafan1_random10_168000/summary.json",
+      "source_sha256": "133d91eb0689d6259e642bb7fbcf47e22c3fac451d4260a8c259b88d90cf4595",
+      "distributed_sha256": "735219c3497e9f91af3aca928ef430ade0ef755452921f06521cb99a5a75e1ea"
+    }
+  },
+  "training_snapshot": {
+    "source": "logs/e1_paper/train_log.csv",
+    "source_prefix_sha256": "243b754c6c5fca5cf0a6a6483bc91099a2c230b395a0934d3e8e7832ba6dc492",
+    "last_iteration": 168000,
+    "rows": 8400,
+    "sampling_interval_iterations": 20,
+    "distributed_sha256": "f4c180c11f60c9a1efbd891c81b829b8d26b4275063ac3aa182a9b04649ff99f",
+    "columns_note": "sim_rew is training tracking reward; term_frac is training rollout termination fraction, not full-motion success rate."
+  },
+  "video": {
+    "file": "docs/assets/e1_random10_80s.mp4",
+    "source": "results/sim2sim/lafan1_random10_168000/lafan1_random_8s_montage.mp4",
+    "sha256": "797f8bd6ddc5307e9569bbeb3efb3a5ef3efe1dfda2399c41d49d9c52e8368d0",
+    "seconds": 80,
+    "frames": 2000,
+    "fps": 25,
+    "resolution": [
+      960,
+      540
+    ],
+    "checkpoint_iteration": 168000,
+    "selection_seed": 20261023
+  },
+  "interpretation": "The 164000 result evaluates all 40 full training-library motions once. The 168000 montage evaluates 10 independently initialized 8-second intervals. They are different protocols; neither measures held-out or real-hardware success.",
+  "package_path_layout": {
+    "motion_dir": "datasets/e1_lafan",
+    "robot_dir": "robots/e1_21dof",
+    "updated_reports": [
+      "eval_014000_summary.json",
+      "eval_032000_summary.json",
+      "eval_164000_summary.json",
+      "random10_sampling_plan.json"
+    ],
+    "note": "Distributed artifact paths follow the current datasets/robots package layout. Original source hashes and recorded numerical measurements are unchanged."
+  }
+}

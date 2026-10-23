@@ -1,0 +1,78 @@
+{
+  "format": "supermimic_e1_media_v1",
+  "source_video": "docs/assets/e1_random10_80s.mp4",
+  "source_checkpoint": "models/ckpt_168000.pt",
+  "checkpoint_iteration": 168000,
+  "gif": {
+    "file": "e1_preview.gif",
+    "source_intervals_seconds": [
+      [
+        2,
+        4
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        58,
+        60
+      ],
+      [
+        66,
+        68
+      ],
+      [
+        10,
+        12
+      ]
+    ],
+    "order_note": "Short excerpts concatenated at original speed; cuts occur every 2 seconds.",
+    "resolution": [
+      480,
+      270
+    ],
+    "fps": 8,
+    "frames": 80,
+    "seconds": 10.01,
+    "animated": true,
+    "nominal_source_duration_seconds": 10,
+    "timing_note": "GIF stores centisecond frame delays; encoded duration differs from the nominal source interval by 0.01 s."
+  },
+  "cover": {
+    "file": "e1_overview.jpg",
+    "source_times_seconds": [
+      3.2,
+      20,
+      60,
+      68
+    ],
+    "processing": "Extracted original frames; cropped original text header; resized preserving aspect ratio; added title and labels. No pose changes or synthetic images."
+  },
+  "curves": {
+    "files": [
+      "e1_training.png",
+      "e1_training.svg"
+    ],
+    "source_csv": "docs/results/train_log_168000.csv",
+    "training_smoothing": "100 logged samples = 2000 iterations; trailing arithmetic moving mean. Raw samples remain visible.",
+    "evaluation_checkpoints": [
+      14000,
+      32000,
+      164000
+    ],
+    "evaluation_source_files": [
+      "docs/results/eval_014000_summary.json",
+      "docs/results/eval_032000_summary.json",
+      "docs/results/eval_164000_summary.json"
+    ],
+    "evaluation_plot": "Scatter points only; no inferred intermediate evaluations."
+  },
+  "sha256": {
+    "e1_overview.jpg": "2b39d353048ca143bdc29b2005bb217c39ffd0fdf71283080aeb1b87027c8038",
+    "e1_preview.gif": "0cd39aedb1e9d85982d9daf3b1dce873185d9f2727c923252c99935531325566",
+    "e1_random10_80s.mp4": "797f8bd6ddc5307e9569bbeb3efb3a5ef3efe1dfda2399c41d49d9c52e8368d0",
+    "e1_training.png": "ee69b37fecfc305cdcfa7fa56161ec09a57f9c0cf1681a750e3a6f618c41a80b",
+    "e1_training.svg": "be38e362e0d291375aae066f3d5a210376ccc40dcb9c3bcf1a149c83ac71e7f0"
+  }
+}

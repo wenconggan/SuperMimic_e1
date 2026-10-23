@@ -1,0 +1,359 @@
+{
+  "format": "e1_lafan_random_montage_v1",
+  "checkpoint": "models/ckpt_168000.pt",
+  "checkpoint_sha256": "b667968d9714ec0773bebb5919697da23887c3a9cbf6ef901b2a0e8cf5386841",
+  "seed": 20261023,
+  "scope": "total",
+  "samples": 10,
+  "seconds_per_clip": 8.0,
+  "control_hz": 50,
+  "video_fps": 25,
+  "width": 960,
+  "height": 540,
+  "motion_dir": "datasets/e1_lafan",
+  "library": {
+    "dance1_subject1": {
+      "category": "dance",
+      "source_rows": 3945,
+      "end_frame": 6573,
+      "sha256": "2d6e20d1ccab71f5bbae7293a338b9f3a1cc158dbce25a3184c1b45d9d348319"
+    },
+    "dance1_subject2": {
+      "category": "dance",
+      "source_rows": 3945,
+      "end_frame": 6573,
+      "sha256": "22e2c3693052f04c87d5f1af37d123173bcd06367bd89a2ce6004cdd25fed9d6"
+    },
+    "dance1_subject3": {
+      "category": "dance",
+      "source_rows": 3945,
+      "end_frame": 6573,
+      "sha256": "0a17d91b4b37012bef4b3fcd88964da0e067a131222da00270807d709bad85f1"
+    },
+    "dance2_subject1": {
+      "category": "dance",
+      "source_rows": 6771,
+      "end_frame": 11283,
+      "sha256": "fe10c8cd8a2481a6b6676722d93cc3908931954349696db7fad1ea4c58244f1e"
+    },
+    "dance2_subject2": {
+      "category": "dance",
+      "source_rows": 6771,
+      "end_frame": 11283,
+      "sha256": "bc765549f2f4bc037c3303b410f4834e79aed48f959261cdf8a8155e89334eeb"
+    },
+    "dance2_subject3": {
+      "category": "dance",
+      "source_rows": 6771,
+      "end_frame": 11283,
+      "sha256": "50ce3d5ff37e091e948641d429c635e25f9fbb9119652cc2dc10097077d517ce"
+    },
+    "dance2_subject4": {
+      "category": "dance",
+      "source_rows": 6771,
+      "end_frame": 11283,
+      "sha256": "522f3789586dd9cff1e28479ad6f5aa83aa8732e8744bd73793f0dd2a262718d"
+    },
+    "dance2_subject5": {
+      "category": "dance",
+      "source_rows": 6771,
+      "end_frame": 11283,
+      "sha256": "58be8e96abdeaf12b4cbd3857924159f679706ce35aaef10e82d111c92dd884a"
+    },
+    "fallAndGetUp1_subject1": {
+      "category": "fallAndGetUp",
+      "source_rows": 5047,
+      "end_frame": 8410,
+      "sha256": "7a102a834cc04a640bc6f25033ba13d72d09c337518392146063894fb86c9450"
+    },
+    "fallAndGetUp1_subject4": {
+      "category": "fallAndGetUp",
+      "source_rows": 5047,
+      "end_frame": 8410,
+      "sha256": "53062de88caf2ee0ff3ad4edadc96aa1ac2110899d1283cf00dfc531de9e75ea"
+    },
+    "fallAndGetUp1_subject5": {
+      "category": "fallAndGetUp",
+      "source_rows": 5047,
+      "end_frame": 8410,
+      "sha256": "7778fdb88a1b9cad284fd8e32cde60fbf3692b344e2ce158b677a159f2c716de"
+    },
+    "fallAndGetUp2_subject2": {
+      "category": "fallAndGetUp",
+      "source_rows": 4918,
+      "end_frame": 8195,
+      "sha256": "07a44427d453bb211b6c206813f2a34bd8b1d444bafc4e09578e7c1bdb1c3fa3"
+    },
+    "fallAndGetUp2_subject3": {
+      "category": "fallAndGetUp",
+      "source_rows": 4918,
+      "end_frame": 8195,
+      "sha256": "5ce424e4a3b3b5cce8ba8d80a5b21a3ea2ed9e05b81d32503871fa704b329b42"
+    },
+    "fallAndGetUp3_subject1": {
+      "category": "fallAndGetUp",
+      "source_rows": 3066,
+      "end_frame": 5108,
+      "sha256": "be0cafeef2b3e4163fab8da56113fab3e9389cdf107dabe92503982a0af608eb"
+    },
+    "fight1_subject2": {
+      "category": "fight",
+      "source_rows": 7347,
+      "end_frame": 12243,
+      "sha256": "28aceab2c59f9f2b142e1529f508f8781af6572bc82256c3a89ce1978e865db5"
+    },
+    "fight1_subject3": {
+      "category": "fight",
+      "source_rows": 7347,
+      "end_frame": 12243,
+      "sha256": "684bcd862834cdd3294e6d94d4f99e27955b7d34b407ee88c1545104d9bdb555"
+    },
+    "fight1_subject5": {
+      "category": "fight",
+      "source_rows": 7347,
+      "end_frame": 12243,
+      "sha256": "d799c8e567035e7c8a6a71b5c2c0b3a7b49bb4965abf058fc7a8cb1b3fe46df2"
+    },
+    "fightAndSports1_subject1": {
+      "category": "fightAndSports",
+      "source_rows": 7355,
+      "end_frame": 12256,
+      "sha256": "94177d75a63661fcf0e27667b76b5f2340cedc4c9096943f63393844c1c24407"
+    },
+    "fightAndSports1_subject4": {
+      "category": "fightAndSports",
+      "source_rows": 7355,
+      "end_frame": 12256,
+      "sha256": "0245143da042e4747b4dd12d926db52ac3ddba5330f5fa0ae5691be4b855faad"
+    },
+    "jumps1_subject1": {
+      "category": "jumps",
+      "source_rows": 7334,
+      "end_frame": 12221,
+      "sha256": "fb2f021bb1a20932ce0cc284d89dcf8633c0697e41e7dae36c82149d7e08a221"
+    },
+    "jumps1_subject2": {
+      "category": "jumps",
+      "source_rows": 7334,
+      "end_frame": 12221,
+      "sha256": "55f17c947545a9b770679d534214d66097d7ac88082623274632a5a0ba49cc07"
+    },
+    "jumps1_subject5": {
+      "category": "jumps",
+      "source_rows": 7334,
+      "end_frame": 12221,
+      "sha256": "51f9bcdaba4a5320e3b33e8c67e25f0745bc426a2ba4f256501e4e7725cf3268"
+    },
+    "run1_subject2": {
+      "category": "run",
+      "source_rows": 7135,
+      "end_frame": 11890,
+      "sha256": "b76e5094b60ed64489ff8624fb68c4328b360c60771bdb9ce229d98be13cc0de"
+    },
+    "run1_subject5": {
+      "category": "run",
+      "source_rows": 7135,
+      "end_frame": 11890,
+      "sha256": "9e102b0425eb7a4f14fffe4e57bfdf47d40e519bfb3f1c43e7e2fde6f99f0262"
+    },
+    "run2_subject1": {
+      "category": "run",
+      "source_rows": 7345,
+      "end_frame": 12240,
+      "sha256": "f86b1f893c10249ea99aa47194d665fc6e32ef8c82b8f4beb40ddaacf0781df8"
+    },
+    "run2_subject4": {
+      "category": "run",
+      "source_rows": 7345,
+      "end_frame": 12240,
+      "sha256": "76dc1ce6b88dfff31eba110c9e303f1350a6945b5ce79472fefa602de1eadccb"
+    },
+    "sprint1_subject2": {
+      "category": "sprint",
+      "source_rows": 8194,
+      "end_frame": 13655,
+      "sha256": "febe67d8b3b03c1088e48b458bd6b1a3e87d734db0ea9a49af2d0326e6159e20"
+    },
+    "sprint1_subject4": {
+      "category": "sprint",
+      "source_rows": 8194,
+      "end_frame": 13655,
+      "sha256": "ddc6921c102fcb47c5c0522c7621c829d877c5ea114a78368dc3b2bd9f179a63"
+    },
+    "walk1_subject1": {
+      "category": "walk",
+      "source_rows": 7840,
+      "end_frame": 13065,
+      "sha256": "e23934613bc19c6210e60742555472a44aa5f2bda94e0627f90fb830d546e6e9"
+    },
+    "walk1_subject2": {
+      "category": "walk",
+      "source_rows": 7840,
+      "end_frame": 13065,
+      "sha256": "7955cbee5087675cffd5e861b79983c9d0aa5a77bda8cd505640b1ee1b4826b3"
+    },
+    "walk1_subject5": {
+      "category": "walk",
+      "source_rows": 7840,
+      "end_frame": 13065,
+      "sha256": "e100def443638b1e3ed56766bdc223114f37bd09a8966e8756af34994d6f1224"
+    },
+    "walk2_subject1": {
+      "category": "walk",
+      "source_rows": 7146,
+      "end_frame": 11908,
+      "sha256": "3066e869a0f9812aa6c65b685a5cf254964b016d8a6f2cdccdcf4792dedd25fa"
+    },
+    "walk2_subject3": {
+      "category": "walk",
+      "source_rows": 7146,
+      "end_frame": 11908,
+      "sha256": "339b021272bcd078ae6d08ecc8972ec5e32926f91070d1cd6e1ee5ea4ed6d0d4"
+    },
+    "walk2_subject4": {
+      "category": "walk",
+      "source_rows": 7146,
+      "end_frame": 11908,
+      "sha256": "33cd20fe24623b62016779416ed745fa16dff1ff9c06956987177ad4396ed128"
+    },
+    "walk3_subject1": {
+      "category": "walk",
+      "source_rows": 7399,
+      "end_frame": 12330,
+      "sha256": "febe0ecdfc414002511d731a9edb30160d4f7d8d5e152f5325dbfbb6c0901668"
+    },
+    "walk3_subject2": {
+      "category": "walk",
+      "source_rows": 7399,
+      "end_frame": 12330,
+      "sha256": "f80b3f647cf2782c2d1969362d75ee565740e2cb8c860f1b549cbb6aca764ef6"
+    },
+    "walk3_subject3": {
+      "category": "walk",
+      "source_rows": 7399,
+      "end_frame": 12330,
+      "sha256": "eade0507fe06eb4b969fee761a711d4137a0ef922e4757949d35a57085ec95cb"
+    },
+    "walk3_subject4": {
+      "category": "walk",
+      "source_rows": 7399,
+      "end_frame": 12330,
+      "sha256": "6ef0c11e5703b4a66e7270cb65cad4459e6066a3580f1bba58ca19baa287e0d5"
+    },
+    "walk3_subject5": {
+      "category": "walk",
+      "source_rows": 7399,
+      "end_frame": 12330,
+      "sha256": "fa1fe797cac550cbb6a8784866d33008d62fd2894ca635fcc6f201a9f80b387d"
+    },
+    "walk4_subject1": {
+      "category": "walk",
+      "source_rows": 4918,
+      "end_frame": 8195,
+      "sha256": "9d5e2578258b0e4afa467842329a75f0cfcb28d8f2591bd5da40d6c8824d9eeb"
+    }
+  },
+  "clips": [
+    {
+      "index": 1,
+      "category": "fight",
+      "category_index": 1,
+      "motion": "fight1_subject5",
+      "start_frame": 6528,
+      "end_frame": 6928,
+      "start_seconds": 130.56,
+      "seconds": 8.0
+    },
+    {
+      "index": 2,
+      "category": "walk",
+      "category_index": 1,
+      "motion": "walk4_subject1",
+      "start_frame": 6488,
+      "end_frame": 6888,
+      "start_seconds": 129.76,
+      "seconds": 8.0
+    },
+    {
+      "index": 3,
+      "category": "fallAndGetUp",
+      "category_index": 1,
+      "motion": "fallAndGetUp2_subject3",
+      "start_frame": 1673,
+      "end_frame": 2073,
+      "start_seconds": 33.46,
+      "seconds": 8.0
+    },
+    {
+      "index": 4,
+      "category": "walk",
+      "category_index": 2,
+      "motion": "walk3_subject1",
+      "start_frame": 5111,
+      "end_frame": 5511,
+      "start_seconds": 102.22,
+      "seconds": 8.0
+    },
+    {
+      "index": 5,
+      "category": "run",
+      "category_index": 1,
+      "motion": "run1_subject2",
+      "start_frame": 5675,
+      "end_frame": 6075,
+      "start_seconds": 113.5,
+      "seconds": 8.0
+    },
+    {
+      "index": 6,
+      "category": "fight",
+      "category_index": 2,
+      "motion": "fight1_subject3",
+      "start_frame": 4850,
+      "end_frame": 5250,
+      "start_seconds": 97.0,
+      "seconds": 8.0
+    },
+    {
+      "index": 7,
+      "category": "run",
+      "category_index": 2,
+      "motion": "run1_subject5",
+      "start_frame": 9656,
+      "end_frame": 10056,
+      "start_seconds": 193.12,
+      "seconds": 8.0
+    },
+    {
+      "index": 8,
+      "category": "dance",
+      "category_index": 1,
+      "motion": "dance1_subject2",
+      "start_frame": 2125,
+      "end_frame": 2525,
+      "start_seconds": 42.5,
+      "seconds": 8.0
+    },
+    {
+      "index": 9,
+      "category": "sprint",
+      "category_index": 1,
+      "motion": "sprint1_subject2",
+      "start_frame": 9453,
+      "end_frame": 9853,
+      "start_seconds": 189.06,
+      "seconds": 8.0
+    },
+    {
+      "index": 10,
+      "category": "dance",
+      "category_index": 2,
+      "motion": "dance1_subject3",
+      "start_frame": 2909,
+      "end_frame": 3309,
+      "start_seconds": 58.18,
+      "seconds": 8.0
+    }
+  ],
+  "protocol": "Each seeded interval starts independently from its reference state. A trained policy drives native MuJoCo, with no added perturbations. Tracking terminations stay in the video, latched and marked in red; simulation continues to the end of each selected interval. No rejection of failed trials."
+}

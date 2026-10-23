@@ -1,0 +1,17 @@
+{
+  "checkpoint": "models/ckpt_014000.pt",
+  "iteration": 14000,
+  "robot": "e1",
+  "motion_dir": "datasets/e1_lafan",
+  "n_motions": 40,
+  "n_completed": 39,
+  "completion_rate": 0.975,
+  "norm_return": 0.7984306216239929,
+  "norm_return_framew": 0.8020716309547424,
+  "n_failed": 1,
+  "failed": [
+    "walk3_subject3"
+  ],
+  "protocol": "Each training-library motion once from its first frame to its end or training termination; no domain randomization or observation/action noise; friction 1.0. Completion uses the existing height/tilt termination thresholds.",
+  "summary_written_at": "2026-10-22T13:45:26.949387+08:00"
+}

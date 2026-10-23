@@ -1,0 +1,39 @@
+# Local environments and upstream checkout
+.venv*/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+IsaacLab/
+.idea/
+.vscode/
+.DS_Store
+
+# Generated assets and experiment output
+/data/
+/logs/
+/results/
+/build/
+/dist/
+*.egg-info/
+
+# Local motion library and checkpoints are prepared separately for GitHub users.
+datasets/e1_lafan/*.csv
+*.pt
+*.pth
+*.onnx
+*.npz
+
+# README media and measured report snapshots are intentional repository assets.
+!docs/assets/*.mp4
+!docs/assets/*.gif
+!docs/assets/*.png
+!docs/assets/*.jpg
+!docs/assets/*.svg
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
